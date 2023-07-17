@@ -3,25 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Business Card</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <main>
-      <article>
-        <img src="img/avatar.png" alt="avatar pracownik" />
-        <div>
-          <header>
-            <h1>Imię i nazwisko</h1>
-            <p>frontend developer</p>
+    <main class="main">
+      <article class="card">
+        <img class="card-img" src="img/avatar.png" alt="avatar pracownik" />
+        <div class="card-info">
+          <header class="card-header">
+            <h1 class="card-header__name">Imię i nazwisko</h1>
+            <p class="card-header__position">frontend developer</p>
           </header>
-          <section>
-            <p>
+          <section class="card-description">
+            <p class="card-description__info">
               Programista z kilkunastoletnim doświadczeniem, fotograf, operator
               drona, właściciel Sokoła Millennium (na razie tylko z Lego),
               prelegent i szkoleniowiec. Uwielbia eksperymentować z nowymi
               technologiami, w swojej twórczości ocierając się o sztukę.
             </p>
-            <p>W sieci: Facebook, GitHub, Instagram.</p>
+            <p class="card-description__social">W sieci: Facebook, GitHub, Instagram.</p>
           </section>
         </div>
       </article>
